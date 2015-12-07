@@ -1,0 +1,23 @@
+{
+  "name": "okastudios/framework",
+  "description": "A lightweight (and blazing), fast php framework.",
+  "keywords": ["lightweight", "fast", "framework"],
+  "type": "project",
+  "repositories": [
+    {
+      "url": "https://github.com/okastudios/library.git",
+      "type": "git"
+    }
+  ],
+  "require": {
+    "okastudios/library": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  },
+  "config": {
+    "vendor-dir": "Libraries"
+  }
+}
